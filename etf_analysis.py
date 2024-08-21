@@ -5,6 +5,7 @@ import requests
 
 # 定義ETF列表
 etfs = ['0050.TW', '00830.TW', '00662.TW', '00757.TW']
+etfs = ['006208.TW', '00713.TW', '0056.TW', '00696B.TW']
 
 def get_etf_data(symbol, period='5y'):
     etf = yf.Ticker(symbol)
