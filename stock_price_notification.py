@@ -19,7 +19,7 @@ def send_line_notify(message):
 
 # 股票代碼列表
 stocks = ['0050.TW', '00830.TW', '00662.TW', '00757.TW', '00881.TW']
-#stocks = ['2330.TW', '00631L.TW', '00675L.TW', '00757.TW']
+stocks = ['006208.TW','00713.TW','0056.TW','00696B.TW','2888.TW','2330.TW', '2317.TW', '6139.TW', '2303.TW']
 
 def get_stock_info(symbol):
     stock = yf.Ticker(symbol)
